@@ -41,7 +41,7 @@ const TAB_DATA = [
                 <li>CPR/First Aid certified</li>
                 <li>Food Manager License</li>
                 <li>NAUI Scuba/Nitrox Certified</li>
-                <li>Master Captain's License</li>
+                <li>Master Captain&apos;s License</li>
             </ul>
         )
     }
@@ -73,9 +73,9 @@ const AboutSection = () => {
                     </p>
 
                     <p className="text-base text-black lg:text-lg">
-                        When I'm not immersed in the world of code, you'll often find me indulging in my love for 
-                        sports—whether it's cheering for my favorite team or getting active on the field myself. 
-                        I'm also an avid angler, finding joy in the art of fishing, and a thrill-seeker who's 
+                        When I&apos;m not immersed in the world of code, you&apos;ll often find me indulging in my love for 
+                        sports—whether it&apos;s cheering for my favorite team or getting active on the field myself. 
+                        I&apos;m also an avid angler, finding joy in the art of fishing, and a thrill-seeker who&apos;s 
                         always up for an adrenaline-pumping skydiving or scuba diving experience.
                     </p>
 

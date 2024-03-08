@@ -25,7 +25,7 @@ const Introduction = () => {
             <p className="text-black text-base sm:text-lg mb-6 lg:text-xl">
                 Throughout my academic and professional career, I have perfected my skills in various programming languages, 
                 algorithms, and software development methodologies. I am always seeking new challenges and pushing myself 
-                to new boundaries. Whether it's developing robust web applications, creating efficient algorithms, 
+                to new boundaries. Whether it&apos;s developing robust web applications, creating efficient algorithms, 
                 or architecting scalable systems, I am always eager to tackle new challenges head-on.
             </p>
 
@@ -47,12 +47,12 @@ const Introduction = () => {
         </div>
         <div className="col-span-4 place-self-top mt-4 lg:mt-8">
             <div className="w-[250px] h-[250px] lg:w-[400px] lg:h[400px] relative">
-                <img
+                <Image
                     src="/images/IMG_2684.jpg"
                     alt="profile-picture"
                     className="profile-picture absolute transform -translate-x-1/2 -translate-y-3/2 top-3/2 left-1/2"
-                    width="90%"
-                    height="auto"
+                    width={350}
+                    height={400}
                     
                 />
             </div>

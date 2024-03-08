@@ -15,6 +15,7 @@ const EmailSection = () => {
                     I will get back to you as soon as I can!
                 </p>
                 
+                {/* Linkedin and Github buttons */}
                 <div>
                     <a href="https://github.com/cra18" target="_blank">
                         <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-500 via-yellow-400 to-yellow-500  hover:bg-slate-200 text-black">
@@ -30,6 +31,7 @@ const EmailSection = () => {
                 </div>
             </div>
 
+            {/* Emails sent through formspree */}
             <div>
                 <form className="flex flex-col gap-4" action="https://formspree.io/f/mjvnrrwb" method="POST">
                     <div className="mb-1">
